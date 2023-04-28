@@ -48,7 +48,7 @@ import {
             borderRight={['none', '1px solid white']}
           >
             <Heading textTransform={'uppercase'} textAlign={'center'}>
-             Clay 
+            WTL- Answer Writing
             </Heading>
             <Text>All rights received</Text>
           </VStack>

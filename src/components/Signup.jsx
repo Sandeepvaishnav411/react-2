@@ -21,7 +21,7 @@ import {
             m={'auto'}
             my={'16'}
           >
-            <Heading>Clay</Heading>
+            <Heading>WTL- Answer Writing</Heading>
             <Avatar alignSelf={'center'} boxSize={'32'} />
   
             <Input

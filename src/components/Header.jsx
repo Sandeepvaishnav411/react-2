@@ -40,7 +40,7 @@ const Header = () => {
         <DrawerContent>
           <DrawerCloseButton />
           <DrawerHeader></DrawerHeader>
-          <DrawerHeader>Clay- Auswer Writing</DrawerHeader>
+          <DrawerHeader>WTL- Answer Writing</DrawerHeader>
           <DrawerBody>
             <VStack alignItems={'flex-start'}>
               <Button
