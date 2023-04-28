@@ -39,7 +39,8 @@ const Header = () => {
 
         <DrawerContent>
           <DrawerCloseButton />
-          <DrawerHeader>Stock Video</DrawerHeader>
+          <DrawerHeader></DrawerHeader>
+          <DrawerHeader>Clay- Auswer Writing</DrawerHeader>
           <DrawerBody>
             <VStack alignItems={'flex-start'}>
               <Button
@@ -63,7 +64,7 @@ const Header = () => {
                 variant={'ghost'}
                 colorScheme={'purple'}
               >
-                <Link to={'/videos?category=free'}>Free Videos</Link>
+                <Link to={'/videos?category=free'}>Best Learner</Link>
               </Button>
 
               <Button
@@ -71,7 +72,7 @@ const Header = () => {
                 variant={'ghost'}
                 colorScheme={'purple'}
               >
-                <Link to={'/upload'}>Upload Video</Link>
+                <Link to={'/upload'}>Upload Auswer</Link>
               </Button>
             </VStack>
 

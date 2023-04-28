@@ -48,7 +48,7 @@ import {
             borderRight={['none', '1px solid white']}
           >
             <Heading textTransform={'uppercase'} textAlign={'center'}>
-             Stock VIDEO 
+             Clay 
             </Heading>
             <Text>All rights received</Text>
           </VStack>
@@ -69,8 +69,8 @@ import {
             </Button>
   
             <Button variant={'link'} colorScheme={'white'}>
-              <a target={'black'} href="https://github.com">
-                Github
+              <a target={'black'} href="https://twitter.com">
+               Twitter
               </a>
             </Button>
           </VStack>

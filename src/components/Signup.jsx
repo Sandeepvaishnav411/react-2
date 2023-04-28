@@ -21,7 +21,7 @@ import {
             m={'auto'}
             my={'16'}
           >
-            <Heading>Stock VIDEO</Heading>
+            <Heading>Clay</Heading>
             <Avatar alignSelf={'center'} boxSize={'32'} />
   
             <Input

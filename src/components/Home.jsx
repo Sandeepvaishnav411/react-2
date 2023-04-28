@@ -2,20 +2,20 @@ import { Box, Container, Heading, Image, Stack, Text } from '@chakra-ui/react';
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import img1 from '../assets/1.jpg';
-import img2 from '../assets/2.jpg';
-import img3 from '../assets/3.jpg';
-import img4 from '../assets/4.jpg';
-import img5 from '../assets/5.png';
+import img1 from '../assets/flag.webp';
+import img2 from '../assets/india gate.webp';
+import img3 from '../assets/./book.jpeg';
+import img4 from '../assets/./boy.jpeg';
+import img5 from '../assets/./map.webp';
 
 const headingOptions = {
   pos: 'absolute',
   left: '50%',
-  top: '50%',
+  top: '80%',
   transform: 'translate(-50%,-50%)',
   textTransform: 'uppercase',
   p: '4',
-  size: '4xl',
+  size: '2xl',
 };
 
 const Home = () => {
@@ -48,20 +48,7 @@ const Home = () => {
             p={['4', '16']}
             textAlign={'center'}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nemo
-            tempora deleniti quod, est eos veniam autem asperiores rem, nam
-            laudantium ut, similique ducimus amet sequi et voluptas iusto rerum
-            at aliquid numquam corporis ipsa reprehenderit? Porro iusto magnam,
-            sit vero deleniti, non nemo rem accusamus neque, quibusdam ab.
-            Libero, reprehenderit recusandae labore eaque, aspernatur aliquid
-            modi soluta ullam voluptatum unde repellat in molestias quod?
-            Doloribus ratione illum quisquam earum consequuntur nam voluptatem,
-            velit culpa maiores. Inventore esse illum excepturi dolores est
-            natus aliquid maiores sunt omnis deserunt accusantium amet enim eos
-            adipisci minima hic, nam provident quo aperiam quasi vel?
-            Dignissimos accusantium aliquid aut vel explicabo voluptatum
-            molestias fugit harum reprehenderit incidunt. Quis cumque explicabo
-            omnis officiis autem dolorum!
+             Mains gives you an appropriate platform to showcase the knowledge you have gained. Even if your answer is not up to the mark, it is still evaluated. You can ask any aspirant, most of them, irrespective of whether they cleared the exam or not, will agree that Mains has some sort of certainty where marks are proportional to the efforts. You are neither rejected merely based on some 100 questions from multiple topics without any certainty of marks distribution, nor judged by a single conversation with experienced people having individual subjective perceptions. It is the Mains which gets your name into the list PT is just the rank and service decider.
           </Text>
         </Stack>
       </Container>
@@ -81,27 +68,27 @@ const MyCarousel = () => (
     <Box w="full" h={'100vh'}>
       <Image src={img1} h="full" w={'full'} objectFit={'cover'} />
       <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions}>
-        Watch The Future
+      राष्ट्र सर्वोपरि
       </Heading>
     </Box>
     <Box w="full" h={'100vh'}>
       <Image src={img2} h="full" w={'full'} objectFit={'cover'} />
-      <Heading bgColor={'whiteAlpha.900'} color={'black'} {...headingOptions}>
-        Future is Gaming
+      <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
+      वसुधैव कुटुम्बकम
       </Heading>
     </Box>
 
     <Box w="full" h={'100vh'}>
       <Image src={img3} h="full" w={'full'} objectFit={'cover'} />
       <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
-        You are Next Pro
+      शून्य
       </Heading>
     </Box>
 
     <Box w="full" h={'100vh'}>
       <Image src={img4} h="full" w={'full'} objectFit={'cover'} />
-      <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
-        life is cool
+      <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions}>
+      “Poverty is the parent of crime.”
       </Heading>
     </Box>
   </Carousel>
